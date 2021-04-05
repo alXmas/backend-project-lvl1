@@ -1,9 +1,9 @@
 import readlineSync from 'readline-sync'
 
-console.log("Answer 'yes' if number even otherwise answer 'no'.");
 const isEven = num => num % 2 === 0;
 
 export function game(userName) {
+  console.log("Answer 'yes' if number even otherwise answer 'no'.");
   let count = 0;
   while(count != 3) {
     const question = Math.floor(Math.random() * (50 - 1)) + 1;
