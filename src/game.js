@@ -20,4 +20,4 @@ export function game(userName) {
     }
   }
   console.log('Congratulations,', userName, '!');
-};
+}
