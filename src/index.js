@@ -8,7 +8,7 @@ export function greeting(gameData, gameDescription) {
   console.log('');
   console.log(gameDescription);
   while(gameCount != 3) {
-    const [question, rightAnswer]  = gameData();
+    const [question, rightAnswer] = gameData();
     const userAnswer = readlineSync.question(`Question: ${question} `);
     console.log(`Your answer: ${userAnswer}`);
     if (userAnswer !== rightAnswer) {
