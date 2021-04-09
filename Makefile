@@ -2,9 +2,9 @@
 install:
 	npm ci
 
-.PHONY: brain-games
-brain-games:
-	node bin/brain-games.js
+.PHONY: brain-calc
+brain-calc:
+	node bin/brain-calc.js
 
 .PHONY: brain-even
 brain-even:
