@@ -9,9 +9,9 @@
 [![asciicast](https://asciinema.org/a/ZR3rba2oYvHVNJmJByKBFNYxf.svg)](https://asciinema.org/a/ZR3rba2oYvHVNJmJByKBFNYxf)
 ## Brain Calc:
 [![asciicast](https://asciinema.org/a/Aq4cucvfbEpjDqJJztHTZjTkH.svg)](https://asciinema.org/a/Aq4cucvfbEpjDqJJztHTZjTkH)
-## Brain Gcd
+## Brain Gcd:
 [![asciicast](https://asciinema.org/a/fwVvNJTMIfj3TezDoPdEojjR6.svg)](https://asciinema.org/a/fwVvNJTMIfj3TezDoPdEojjR6)
-## Brain Progression
+## Brain Progression:
 [![asciicast](https://asciinema.org/a/PAgk8e5bHLvQtLfvUNZlWfuMe.svg)](https://asciinema.org/a/PAgk8e5bHLvQtLfvUNZlWfuMe)
-## Brain Prime
+## Brain Prime:
 [![asciicast](https://asciinema.org/a/pX4RVcuQwu9CHb5zcoIB2PHX9.svg)](https://asciinema.org/a/pX4RVcuQwu9CHb5zcoIB2PHX9)
