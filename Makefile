@@ -14,6 +14,10 @@ brain-even:
 brain-gcd:
 	node bin/brain-gcd.js
 
+.PHONY: brain-progression
+brain-gcd:
+	node bin/brain-progression.js
+
 .PHONY: publish
 publish:
 	npm publish --dry-run
