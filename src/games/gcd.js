@@ -15,5 +15,5 @@ export const gameData = () => {
   const question = `${number1} ${number2}`;
   const rightAnswer = buildGcd(number1, number2).toString();
 
-  return [question, rightAnswer]
+  return [question, rightAnswer];
 };

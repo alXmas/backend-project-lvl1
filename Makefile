@@ -14,8 +14,12 @@ brain-even:
 brain-gcd:
 	node bin/brain-gcd.js
 
+.PHONY: brain-prime
+brain-prime:
+	node bin/brain-prime.js
+
 .PHONY: brain-progression
-brain-gcd:
+brain-progression:
 	node bin/brain-progression.js
 
 .PHONY: publish

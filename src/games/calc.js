@@ -20,5 +20,5 @@ export const gameData = () => {
   const question = `${number1} ${operator} ${number2}`;
   const rightAnswer = calculate(number1, number2, operator).toString();
 
-  return [question, rightAnswer]
+  return [question, rightAnswer];
 };

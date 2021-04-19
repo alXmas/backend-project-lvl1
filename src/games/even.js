@@ -8,5 +8,5 @@ export const gameData = () => {
   const question = getRandomInRange(1,50);
   const rightAnswer = (isEven(question) ? 'yes' : 'no');
 
-  return [question, rightAnswer]
+  return [question, rightAnswer];
 };

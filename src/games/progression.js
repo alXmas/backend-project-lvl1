@@ -19,5 +19,6 @@ export const gameData = () => {
   const missingElementIndex = getRandomInRange(1, progressionLength);
   const rightAnswer = (begin + difference * (missingElementIndex - 1)).toString();;
   const question = makeQuestion(begin, difference, missingElementIndex, progressionLength);
-  return [question, rightAnswer]
+
+  return [question, rightAnswer];
 };
