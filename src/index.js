@@ -5,7 +5,9 @@ export function startGame(gameData, gameDescription) {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May i have your name? ');
   console.log(`Hello, ${name}\n`);
-  console.log('');
+  if (gameDescription.length === 0) {
+    return
+  }
   console.log(gameDescription);
   while(gameCount != 3) {
     const [question, rightAnswer] = gameData();
