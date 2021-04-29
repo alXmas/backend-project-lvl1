@@ -2,8 +2,9 @@ import readlineSync from 'readline-sync';
 
 export function startGame(gameData, gameDescription) {
   let gameCount = 0;
-  const name = readlineSync.question('May i have your name?\n');
-  console.log(`Hello, ${name}\n`);
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May i have your name? ');
+  console.log(`Hello, ${name}`);
   if (gameDescription.length === 0) {
     return
   }
